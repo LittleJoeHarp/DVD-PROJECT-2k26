@@ -1,0 +1,45 @@
+{
+  "source": "model.tar:model/32nm_MGK.pm",
+  "sha256": "975d58e3d65379d83b95bf63d47afac784a1fcb623f1c37bbf47e1c9443b2e19",
+  "duplicate_source": "models.zip:models/32nm_MGK.pm",
+  "duplicates_equal_after_strip": true,
+  "original_preserved": true,
+  "nominal": {
+    "nmos": {
+      "vth0": 0.3558,
+      "toxe": 7.5e-10,
+      "ndep": 8.7e+24,
+      "u0": 0.0238,
+      "xj": 1e-08
+    },
+    "pmos": {
+      "vth0": -0.24123,
+      "toxe": 7.7e-10,
+      "ndep": 3.5e+24,
+      "u0": 0.00306,
+      "xj": 1.008e-08
+    }
+  },
+  "card_nominal": {
+    "nmos": {
+      "vth0": 0.3558,
+      "toxe": 7.5e-10,
+      "ndep": 8.7e+18,
+      "u0": 0.0238,
+      "xj": 1e-08
+    },
+    "pmos": {
+      "vth0": -0.24123,
+      "toxe": 7.7e-10,
+      "ndep": 3.5e+18,
+      "u0": 0.00306,
+      "xj": 1.008e-08
+    }
+  },
+  "model_names": [
+    "nmos",
+    "pmos"
+  ],
+  "ndep_units": "CSV/features: m^-3; divide by 1e6 at the SPICE boundary (card: cm^-3)",
+  "oxide_warning": "Original PMOS toxe != toxp + dtox; ngspice ignores dtox. No card edits."
+}
