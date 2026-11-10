@@ -1,0 +1,56 @@
+{
+  "revision": 3,
+  "families": {
+    "Ridge": {
+      "alpha": 0.001
+    },
+    "ExtraTrees": {
+      "n_estimators": 128,
+      "min_samples_leaf": 1
+    },
+    "HistGradientBoosting": {
+      "max_iter": 500,
+      "max_leaf_nodes": 31,
+      "learning_rate": 0.06,
+      "l2_regularization": 0.01,
+      "min_samples_leaf": 15,
+      "early_stopping": false
+    },
+    "LocalRBF": {
+      "neighbors": 96,
+      "epsilon": 0.7,
+      "smoothing": 1e-07
+    }
+  },
+  "split": "stratified 70:15:15 within each population",
+  "selection": "within each input-defined regime, minimum validation equal-population vector relative L1 error; denominator floor 1e-14 A",
+  "target_transform": "log positive symmetric conductance and gate/body coefficients; exact joint KCL reconstruction",
+  "coordinate_noise_floors_A": [
+    1e-14,
+    1e-16,
+    1e-14
+  ],
+  "original_signed_currents_used_for_metrics": true,
+  "rbf_training_support_bounds": true,
+  "gate_circuit_targets_used": false,
+  "train_only_transforms": true,
+  "kcl_parameterization": true,
+  "seed": 271828,
+  "data_hashes": {
+    "nmos_on": "9d1fa6b283f2bb48159a994b9e974af60310704f7a8678bce39eb30aec4090db",
+    "nmos_off": "38552a9e4a4c1da5f570ce0aa248f00962f92b312eb65be396a5f718902aa7d9",
+    "pmos_on": "59eea987d940335d13b5c96d4912ab9fa26289c6d92e2fcf92aaef831f15e0ae",
+    "pmos_off": "e91f960ea416e0fbd558e1d36382f5b81bbdbc7bc9209688f70f71dd24778952"
+  },
+  "supplementary_hashes": {
+    "nmos_on": "1ebc588a1b4cdab969300a21500fb0ed9118d7e380eaf5fe3bb7bd72482450f3",
+    "nmos_off": "7654ae60b8afd9c44b9d004422c57e5e4a963316634cfe5b597aa17bbcc97066",
+    "pmos_on": "8031c3f0843ec301c095f007f0d985047197ca3e896e437e823b08ac1c908630",
+    "pmos_off": "d2cf1c5eef80f05f0f86e5404393ba794dae5aa00fe6d6c8784eeac8953d6926"
+  },
+  "refinement_settings": {
+    "neighbors": 160,
+    "epsilon": 0.5,
+    "smoothing": 1e-08
+  }
+}

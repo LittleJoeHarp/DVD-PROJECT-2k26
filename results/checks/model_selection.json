@@ -1,0 +1,130 @@
+{
+  "nmos_on": {
+    "family": "RegimeEnsemble",
+    "settings": {
+      "families": {
+        "HistGradientBoosting": {
+          "max_iter": 500,
+          "max_leaf_nodes": 31,
+          "learning_rate": 0.06,
+          "l2_regularization": 0.01,
+          "min_samples_leaf": 15,
+          "early_stopping": false
+        },
+        "LocalRBF": {
+          "neighbors": 160,
+          "epsilon": 0.5,
+          "smoothing": 1e-08
+        }
+      },
+      "region_mapping": {
+        "0": "LocalRBF",
+        "1": "HistGradientBoosting",
+        "2": "LocalRBF",
+        "3": "LocalRBF",
+        "4": "LocalRBF",
+        "5": "LocalRBF"
+      }
+    },
+    "validation_selection_error_pct": 2.0939579127504695,
+    "training_rows": 21000,
+    "selection_used_test": false,
+    "coordinate_fit_rows": [
+      18070,
+      21000,
+      21000
+    ]
+  },
+  "nmos_off": {
+    "family": "RegimeEnsemble",
+    "settings": {
+      "families": {
+        "LocalRBF": {
+          "neighbors": 160,
+          "epsilon": 0.5,
+          "smoothing": 1e-08
+        }
+      },
+      "region_mapping": {
+        "0": "LocalRBF",
+        "1": "LocalRBF",
+        "2": "LocalRBF",
+        "3": "LocalRBF",
+        "4": "LocalRBF",
+        "5": "LocalRBF"
+      }
+    },
+    "validation_selection_error_pct": 1.0590998656356923,
+    "training_rows": 21000,
+    "selection_used_test": false,
+    "coordinate_fit_rows": [
+      18110,
+      20500,
+      11544
+    ]
+  },
+  "pmos_on": {
+    "family": "RegimeEnsemble",
+    "settings": {
+      "families": {
+        "HistGradientBoosting": {
+          "max_iter": 500,
+          "max_leaf_nodes": 31,
+          "learning_rate": 0.06,
+          "l2_regularization": 0.01,
+          "min_samples_leaf": 15,
+          "early_stopping": false
+        },
+        "LocalRBF": {
+          "neighbors": 160,
+          "epsilon": 0.5,
+          "smoothing": 1e-08
+        }
+      },
+      "region_mapping": {
+        "0": "LocalRBF",
+        "1": "HistGradientBoosting",
+        "2": "LocalRBF",
+        "3": "LocalRBF",
+        "4": "LocalRBF",
+        "5": "LocalRBF"
+      }
+    },
+    "validation_selection_error_pct": 1.583126620527643,
+    "training_rows": 21000,
+    "selection_used_test": false,
+    "coordinate_fit_rows": [
+      18041,
+      21000,
+      21000
+    ]
+  },
+  "pmos_off": {
+    "family": "RegimeEnsemble",
+    "settings": {
+      "families": {
+        "LocalRBF": {
+          "neighbors": 160,
+          "epsilon": 0.5,
+          "smoothing": 1e-08
+        }
+      },
+      "region_mapping": {
+        "0": "LocalRBF",
+        "1": "LocalRBF",
+        "2": "LocalRBF",
+        "3": "LocalRBF",
+        "4": "LocalRBF",
+        "5": "LocalRBF"
+      }
+    },
+    "validation_selection_error_pct": 2.3167124144260614,
+    "training_rows": 21000,
+    "selection_used_test": false,
+    "coordinate_fit_rows": [
+      18085,
+      20478,
+      13366
+    ]
+  }
+}

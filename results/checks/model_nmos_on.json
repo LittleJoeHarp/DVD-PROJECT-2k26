@@ -1,0 +1,44 @@
+{
+  "reload_consistent": true,
+  "plot": {
+    "id": {
+      "plotted": 4500,
+      "zero_excluded": 0,
+      "magnitude_plot": true,
+      "sign_mismatches": 44
+    },
+    "ig": {
+      "plotted": 4500,
+      "zero_excluded": 0,
+      "magnitude_plot": true,
+      "sign_mismatches": 0
+    },
+    "is": {
+      "plotted": 4500,
+      "zero_excluded": 0,
+      "magnitude_plot": true,
+      "sign_mismatches": 81
+    },
+    "ib": {
+      "plotted": 4500,
+      "zero_excluded": 0,
+      "magnitude_plot": true,
+      "sign_mismatches": 0
+    }
+  },
+  "predicted_kcl": {
+    "maximum_residual_A": 1.5396809049817036e-19,
+    "median_residual_A": 1.2060800915683999e-21,
+    "p95_residual_A": 3.4137516405395005e-20,
+    "absolute_tolerance_A": 1e-14,
+    "absolute_only_exceedances": 0,
+    "scale_aware_failures": 0,
+    "relative_tolerance": 1e-06
+  },
+  "artifact_sha256": "f93aa8bcdfd8ea7188abc79c094f2b04cf8d504ef5cac9d052bfd9bfc68de99a",
+  "coordinate_fit_rows": [
+    18070,
+    21000,
+    21000
+  ]
+}
