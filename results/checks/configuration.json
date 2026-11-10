@@ -1,0 +1,44 @@
+{
+  "model_file": "32nm_MGK.pm",
+  "nominal_vdd": 1.0,
+  "circuit": "8-bit parity checker",
+  "parity_convention": "P = D0 XOR D1 XOR ... XOR D7; odd parity gives P=1",
+  "length_m": 3.2e-08,
+  "width_range_m": [
+    3.2e-08,
+    2.56e-07
+  ],
+  "vdd_range_V": [
+    0.9,
+    1.1
+  ],
+  "temperature_range_C": [
+    -40.0,
+    125.0
+  ],
+  "process_factor_range": [
+    0.9,
+    1.1
+  ],
+  "samples_per_case": 10000,
+  "corners": 200,
+  "seed": 271828,
+  "split_fractions": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "batch_size": 250,
+  "workers": 4,
+  "nmos_gate_width_m": 6.4e-08,
+  "pmos_gate_width_m": 1.28e-07,
+  "near_zero_current_A": 1e-15,
+  "kcl_absolute_tolerance_A": 1e-14,
+  "kcl_relative_tolerance": 1e-06,
+  "logic_low_fraction": 0.2,
+  "logic_high_fraction": 0.8,
+  "revision": 3,
+  "supplementary_samples_per_case": 20000,
+  "stratified_splits": true,
+  "corner_seed_offset": 200
+}

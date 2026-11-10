@@ -1,0 +1,16 @@
+Single transistor nmos_on
+.include "../models/32nm_MGK.pm"
+.options gmin=1e-18 abstol=1e-18 reltol=1e-6 vntol=1e-9
+.temp 27
+M1 d g s b nmos W=6.4000000000000004e-08 L=3.2000000000000002e-08
+Vd d 0 1
+Vg g 0 1
+Vs s 0 0
+Vb b 0 0
+.control
+set numdgt=17
+op
+print i(vd) i(vg) i(vs) i(vb)
+quit 0
+.endc
+.end

@@ -1,0 +1,262 @@
+{
+  "nmos_on": {
+    "rows": 20000,
+    "sha256": "1ebc588a1b4cdab969300a21500fb0ed9118d7e380eaf5fe3bb7bd72482450f3",
+    "kcl": {
+      "maximum_residual_A": 1.3259528200885659e-15,
+      "median_residual_A": 1.198301132497766e-16,
+      "p95_residual_A": 4.937572528967339e-16,
+      "absolute_tolerance_A": 1e-14,
+      "absolute_only_exceedances": 0,
+      "scale_aware_failures": 0,
+      "relative_tolerance": 1e-06
+    },
+    "split_counts": {
+      "train": 14000,
+      "validation": 3000,
+      "test": 3000
+    },
+    "strata": {
+      "test": {
+        "interior_T0": 74,
+        "interior_T1": 80,
+        "interior_T2": 77,
+        "lower_rail_T0": 313,
+        "lower_rail_T1": 302,
+        "lower_rail_T2": 307,
+        "near_equal_T0": 512,
+        "near_equal_T1": 516,
+        "near_equal_T2": 512,
+        "upper_rail_T0": 101,
+        "upper_rail_T1": 103,
+        "upper_rail_T2": 103
+      },
+      "train": {
+        "interior_T0": 345,
+        "interior_T1": 372,
+        "interior_T2": 362,
+        "lower_rail_T0": 1457,
+        "lower_rail_T1": 1412,
+        "lower_rail_T2": 1431,
+        "near_equal_T0": 2390,
+        "near_equal_T1": 2409,
+        "near_equal_T2": 2390,
+        "upper_rail_T0": 470,
+        "upper_rail_T1": 482,
+        "upper_rail_T2": 480
+      },
+      "validation": {
+        "interior_T0": 74,
+        "interior_T1": 80,
+        "interior_T2": 78,
+        "lower_rail_T0": 312,
+        "lower_rail_T1": 303,
+        "lower_rail_T2": 306,
+        "near_equal_T0": 513,
+        "near_equal_T1": 516,
+        "near_equal_T2": 512,
+        "upper_rail_T0": 100,
+        "upper_rail_T1": 104,
+        "upper_rail_T2": 102
+      }
+    },
+    "gate_jitter_rows": 0,
+    "failures": 0,
+    "retries": 0
+  },
+  "nmos_off": {
+    "rows": 20000,
+    "sha256": "7654ae60b8afd9c44b9d004422c57e5e4a963316634cfe5b597aa17bbcc97066",
+    "kcl": {
+      "maximum_residual_A": 8.186544524281052e-22,
+      "median_residual_A": 1.869852386433016e-24,
+      "p95_residual_A": 4.758938085079492e-23,
+      "absolute_tolerance_A": 1e-14,
+      "absolute_only_exceedances": 0,
+      "scale_aware_failures": 0,
+      "relative_tolerance": 1e-06
+    },
+    "split_counts": {
+      "train": 14000,
+      "test": 3000,
+      "validation": 3000
+    },
+    "strata": {
+      "test": {
+        "interior_T0": 75,
+        "interior_T1": 69,
+        "interior_T2": 73,
+        "lower_rail_T0": 306,
+        "lower_rail_T1": 316,
+        "lower_rail_T2": 314,
+        "near_equal_T0": 518,
+        "near_equal_T1": 507,
+        "near_equal_T2": 520,
+        "upper_rail_T0": 101,
+        "upper_rail_T1": 98,
+        "upper_rail_T2": 103
+      },
+      "train": {
+        "interior_T0": 349,
+        "interior_T1": 323,
+        "interior_T2": 340,
+        "lower_rail_T0": 1427,
+        "lower_rail_T1": 1477,
+        "lower_rail_T2": 1465,
+        "near_equal_T0": 2418,
+        "near_equal_T1": 2370,
+        "near_equal_T2": 2427,
+        "upper_rail_T0": 470,
+        "upper_rail_T1": 457,
+        "upper_rail_T2": 477
+      },
+      "validation": {
+        "interior_T0": 74,
+        "interior_T1": 70,
+        "interior_T2": 73,
+        "lower_rail_T0": 305,
+        "lower_rail_T1": 317,
+        "lower_rail_T2": 314,
+        "near_equal_T0": 518,
+        "near_equal_T1": 508,
+        "near_equal_T2": 520,
+        "upper_rail_T0": 101,
+        "upper_rail_T1": 98,
+        "upper_rail_T2": 102
+      }
+    },
+    "gate_jitter_rows": 0,
+    "failures": 0,
+    "retries": 0
+  },
+  "pmos_on": {
+    "rows": 20000,
+    "sha256": "8031c3f0843ec301c095f007f0d985047197ca3e896e437e823b08ac1c908630",
+    "kcl": {
+      "maximum_residual_A": 4.041024784760816e-17,
+      "median_residual_A": 7.315169896476571e-18,
+      "p95_residual_A": 2.067657981526786e-17,
+      "absolute_tolerance_A": 1e-14,
+      "absolute_only_exceedances": 0,
+      "scale_aware_failures": 0,
+      "relative_tolerance": 1e-06
+    },
+    "split_counts": {
+      "train": 14000,
+      "validation": 3000,
+      "test": 3000
+    },
+    "strata": {
+      "test": {
+        "interior_T0": 77,
+        "interior_T1": 70,
+        "interior_T2": 75,
+        "lower_rail_T0": 317,
+        "lower_rail_T1": 317,
+        "lower_rail_T2": 319,
+        "near_equal_T0": 526,
+        "near_equal_T1": 510,
+        "near_equal_T2": 493,
+        "upper_rail_T0": 101,
+        "upper_rail_T1": 95,
+        "upper_rail_T2": 100
+      },
+      "train": {
+        "interior_T0": 358,
+        "interior_T1": 323,
+        "interior_T2": 352,
+        "lower_rail_T0": 1479,
+        "lower_rail_T1": 1481,
+        "lower_rail_T2": 1490,
+        "near_equal_T0": 2453,
+        "near_equal_T1": 2382,
+        "near_equal_T2": 2300,
+        "upper_rail_T0": 473,
+        "upper_rail_T1": 443,
+        "upper_rail_T2": 466
+      },
+      "validation": {
+        "interior_T0": 77,
+        "interior_T1": 69,
+        "interior_T2": 76,
+        "lower_rail_T0": 317,
+        "lower_rail_T1": 317,
+        "lower_rail_T2": 319,
+        "near_equal_T0": 525,
+        "near_equal_T1": 511,
+        "near_equal_T2": 493,
+        "upper_rail_T0": 101,
+        "upper_rail_T1": 95,
+        "upper_rail_T2": 100
+      }
+    },
+    "gate_jitter_rows": 0,
+    "failures": 0,
+    "retries": 0
+  },
+  "pmos_off": {
+    "rows": 20000,
+    "sha256": "d2cf1c5eef80f05f0f86e5404393ba794dae5aa00fe6d6c8784eeac8953d6926",
+    "kcl": {
+      "maximum_residual_A": 9.257576028583457e-15,
+      "median_residual_A": 3.9307067326976196e-16,
+      "p95_residual_A": 1.4768691335992323e-15,
+      "absolute_tolerance_A": 1e-14,
+      "absolute_only_exceedances": 0,
+      "scale_aware_failures": 0,
+      "relative_tolerance": 1e-06
+    },
+    "split_counts": {
+      "train": 14000,
+      "test": 3000,
+      "validation": 3000
+    },
+    "strata": {
+      "test": {
+        "interior_T0": 76,
+        "interior_T1": 72,
+        "interior_T2": 75,
+        "lower_rail_T0": 319,
+        "lower_rail_T1": 305,
+        "lower_rail_T2": 318,
+        "near_equal_T0": 517,
+        "near_equal_T1": 514,
+        "near_equal_T2": 518,
+        "upper_rail_T0": 98,
+        "upper_rail_T1": 91,
+        "upper_rail_T2": 97
+      },
+      "train": {
+        "interior_T0": 354,
+        "interior_T1": 336,
+        "interior_T2": 351,
+        "lower_rail_T0": 1487,
+        "lower_rail_T1": 1423,
+        "lower_rail_T2": 1485,
+        "near_equal_T0": 2411,
+        "near_equal_T1": 2400,
+        "near_equal_T2": 2418,
+        "upper_rail_T0": 458,
+        "upper_rail_T1": 424,
+        "upper_rail_T2": 453
+      },
+      "validation": {
+        "interior_T0": 76,
+        "interior_T1": 72,
+        "interior_T2": 75,
+        "lower_rail_T0": 318,
+        "lower_rail_T1": 305,
+        "lower_rail_T2": 319,
+        "near_equal_T0": 516,
+        "near_equal_T1": 514,
+        "near_equal_T2": 518,
+        "upper_rail_T0": 99,
+        "upper_rail_T1": 91,
+        "upper_rail_T2": 97
+      }
+    },
+    "gate_jitter_rows": 0,
+    "failures": 0,
+    "retries": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "transistor_operating_points": 120000,
+  "gate_operating_points": 3600,
+  "circuit_operating_points": 51200,
+  "total_required_operating_points": 174800,
+  "circuit_nand2_instances": 28,
+  "circuit_mos_count": 112,
+  "strategy": "250-row transistor batches; gate/circuit corner batches; four subprocess workers",
+  "smoke_12_points_elapsed_s": 0.07167435699921043,
+  "timing_note": "Startup-dominated smoke timing; benchmark each larger stage before its full run.",
+  "simulator": "******\n** ngspice-42 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2023, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html\n** Creation Date: Sun Mar 31 20:15:14 UTC 2024\n******",
+  "uniform_transistor_operating_points": 40000,
+  "supplementary_transistor_operating_points": 80000,
+  "counts_verified_from_saved_datasets": true
+}

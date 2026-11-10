@@ -1,0 +1,170 @@
+{
+  "nmos_on": {
+    "rows": 10000,
+    "columns": [
+      "vdd",
+      "temp",
+      "w",
+      "vd",
+      "vs",
+      "vg",
+      "vb",
+      "vth0",
+      "toxe",
+      "ndep",
+      "u0",
+      "xj",
+      "id",
+      "ig",
+      "is",
+      "ib"
+    ],
+    "finite": true,
+    "duplicate_rows": 0,
+    "bounds_passed": true,
+    "vd_less_than_vs": 4969,
+    "kcl": {
+      "maximum_residual_A": 1.8112849419737485e-15,
+      "median_residual_A": 7.828338083922291e-17,
+      "p95_residual_A": 3.5868443111406495e-16,
+      "absolute_tolerance_A": 1e-14,
+      "absolute_only_exceedances": 0,
+      "scale_aware_failures": 0,
+      "relative_tolerance": 1e-06
+    },
+    "literal_model_card_comparison": {
+      "rows": [
+        0,
+        4321,
+        9999
+      ],
+      "maximum_difference_A": 1.0842021724855044e-19
+    }
+  },
+  "nmos_off": {
+    "rows": 10000,
+    "columns": [
+      "vdd",
+      "temp",
+      "w",
+      "vd",
+      "vs",
+      "vg",
+      "vb",
+      "vth0",
+      "toxe",
+      "ndep",
+      "u0",
+      "xj",
+      "id",
+      "ig",
+      "is",
+      "ib"
+    ],
+    "finite": true,
+    "duplicate_rows": 0,
+    "bounds_passed": true,
+    "vd_less_than_vs": 4984,
+    "kcl": {
+      "maximum_residual_A": 2.8962815773833763e-22,
+      "median_residual_A": 1.3526408615207436e-24,
+      "p95_residual_A": 1.8004134732307873e-23,
+      "absolute_tolerance_A": 1e-14,
+      "absolute_only_exceedances": 0,
+      "scale_aware_failures": 0,
+      "relative_tolerance": 1e-06
+    },
+    "literal_model_card_comparison": {
+      "rows": [
+        0,
+        4321,
+        9999
+      ],
+      "maximum_difference_A": 1.819797347616661e-23
+    }
+  },
+  "pmos_on": {
+    "rows": 10000,
+    "columns": [
+      "vdd",
+      "temp",
+      "w",
+      "vd",
+      "vs",
+      "vg",
+      "vb",
+      "vth0",
+      "toxe",
+      "ndep",
+      "u0",
+      "xj",
+      "id",
+      "ig",
+      "is",
+      "ib"
+    ],
+    "finite": true,
+    "duplicate_rows": 0,
+    "bounds_passed": true,
+    "vd_less_than_vs": 4964,
+    "kcl": {
+      "maximum_residual_A": 4.3163104926184637e-17,
+      "median_residual_A": 7.630072788866737e-18,
+      "p95_residual_A": 2.0911718808403615e-17,
+      "absolute_tolerance_A": 1e-14,
+      "absolute_only_exceedances": 0,
+      "scale_aware_failures": 0,
+      "relative_tolerance": 1e-06
+    },
+    "literal_model_card_comparison": {
+      "rows": [
+        0,
+        4321,
+        9999
+      ],
+      "maximum_difference_A": 5.421010862427522e-20
+    }
+  },
+  "pmos_off": {
+    "rows": 10000,
+    "columns": [
+      "vdd",
+      "temp",
+      "w",
+      "vd",
+      "vs",
+      "vg",
+      "vb",
+      "vth0",
+      "toxe",
+      "ndep",
+      "u0",
+      "xj",
+      "id",
+      "ig",
+      "is",
+      "ib"
+    ],
+    "finite": true,
+    "duplicate_rows": 0,
+    "bounds_passed": true,
+    "vd_less_than_vs": 5013,
+    "kcl": {
+      "maximum_residual_A": 9.282517942314452e-15,
+      "median_residual_A": 3.6824234278031208e-16,
+      "p95_residual_A": 1.9660902023501925e-15,
+      "absolute_tolerance_A": 1e-14,
+      "absolute_only_exceedances": 0,
+      "scale_aware_failures": 0,
+      "relative_tolerance": 1e-06
+    },
+    "literal_model_card_comparison": {
+      "rows": [
+        0,
+        4321,
+        9999
+      ],
+      "maximum_difference_A": 8.881784197001252e-16
+    }
+  }
+}
