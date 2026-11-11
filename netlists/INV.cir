@@ -1,0 +1,23 @@
+Complete static CMOS INV
+.include "../models/32nm_MGK.pm"
+.options gmin=1e-18 abstol=1e-18 reltol=1e-6 vntol=1e-9
+.temp 27
+VDD vdd 0 1
+V_a a 0 0
+V_p1_d out p1_d 0
+V_p1_g a p1_g 0
+V_p1_s vdd p1_s 0
+V_p1_b vdd p1_b 0
+M_p1 p1_d p1_g p1_s p1_b pmos W=1.2800000000000001e-07 L=3.2000000000000002e-08
+V_n1_d out n1_d 0
+V_n1_g a n1_g 0
+V_n1_s 0 n1_s 0
+V_n1_b 0 n1_b 0
+M_n1 n1_d n1_g n1_s n1_b nmos W=6.4000000000000004e-08 L=3.2000000000000002e-08
+.control
+set numdgt=17
+op
+print i(vdd) v(a) v(out) v(vdd)
+quit 0
+.endc
+.end

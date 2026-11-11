@@ -1,0 +1,7 @@
+{
+  "explicit_truth_tables_passed": true,
+  "complete_coverage": true,
+  "internal_nodes_present": true,
+  "sensing_source_comparison_records": 54,
+  "max_uninstrumented_supply_difference_A": 2.4060414500264526e-15
+}

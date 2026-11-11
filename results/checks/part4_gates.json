@@ -1,0 +1,27 @@
+{
+  "records": 3600,
+  "device_records": 16800,
+  "corners": 200,
+  "cases": 18,
+  "truth_table_failures": 0,
+  "max_supply_boundary_difference_A": 1.0587911840678754e-22,
+  "terminal_kcl": {
+    "maximum_residual_A": 2.6439193417747413e-15,
+    "median_residual_A": 2.1531848834445232e-17,
+    "p95_residual_A": 9.577616892731192e-16,
+    "absolute_tolerance_A": 1e-14,
+    "absolute_only_exceedances": 0,
+    "scale_aware_failures": 0,
+    "relative_tolerance": 1e-06
+  },
+  "simulation_failures": 0,
+  "retries": 0,
+  "elapsed_s": 8.17285012100001,
+  "corner_sha256": "4748ec2190f695790d5c76c01abd65773a34b1a954585b5b36cc72dceb07423c",
+  "reference_sha256": "4ab1b6dc39e29720deecb8c373a47acd16b8d33b695d125678c660cd7809e6fd",
+  "complete_AND2_OR2": true,
+  "input_supplies_separate": true,
+  "warnings": [
+    "Warning: toxe, toxp and dtox all given and toxe != toxp + dtox; dtox ignored."
+  ]
+}

@@ -1,0 +1,34 @@
+Complete static CMOS NOR2
+.include "../models/32nm_MGK.pm"
+.options gmin=1e-18 abstol=1e-18 reltol=1e-6 vntol=1e-9
+.temp 27
+VDD vdd 0 1
+V_a a 0 0
+V_b b 0 0
+V_p1_d y p1_d 0
+V_p1_g a p1_g 0
+V_p1_s vdd p1_s 0
+V_p1_b vdd p1_b 0
+M_p1 p1_d p1_g p1_s p1_b pmos W=1.2800000000000001e-07 L=3.2000000000000002e-08
+V_p2_d out p2_d 0
+V_p2_g b p2_g 0
+V_p2_s y p2_s 0
+V_p2_b vdd p2_b 0
+M_p2 p2_d p2_g p2_s p2_b pmos W=1.2800000000000001e-07 L=3.2000000000000002e-08
+V_n1_d out n1_d 0
+V_n1_g a n1_g 0
+V_n1_s 0 n1_s 0
+V_n1_b 0 n1_b 0
+M_n1 n1_d n1_g n1_s n1_b nmos W=6.4000000000000004e-08 L=3.2000000000000002e-08
+V_n2_d out n2_d 0
+V_n2_g b n2_g 0
+V_n2_s 0 n2_s 0
+V_n2_b 0 n2_b 0
+M_n2 n2_d n2_g n2_s n2_b nmos W=6.4000000000000004e-08 L=3.2000000000000002e-08
+.control
+set numdgt=17
+op
+print i(vdd) v(a) v(b) v(out) v(vdd) v(y)
+quit 0
+.endc
+.end
