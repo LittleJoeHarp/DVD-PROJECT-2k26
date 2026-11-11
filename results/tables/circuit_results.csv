@@ -1,0 +1,2 @@
+circuit,n,r2,bias_A,mae_A,rmse_A,max_absolute_error_A,spice_median_A,ml_median_A,median_error_pct,p95_error_pct,mean_error_pct,mean_accuracy_pct,percentage_count,near_zero_count,near_zero_mae_A,near_zero_max_error_A,sign_mismatches
+parity8,51200,0.9997043485344079,-1.818963610567165e-08,2.674361103046037e-08,4.822679887280137e-08,3.3779136826448476e-07,4.828636558341833e-06,4.837093875077481e-06,0.2507157806803083,1.2394473284217744,0.38721651306022453,99.61278348693978,51200,0,,,0

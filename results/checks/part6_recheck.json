@@ -1,0 +1,26 @@
+{
+  "exhaustive_parity_passed": true,
+  "coverage_records": 51200,
+  "all_instance_sums_match": true,
+  "mos_count": 112,
+  "primary_inputs": 8,
+  "recomputed": {
+    "n": 51200,
+    "r2": 0.9997043485344079,
+    "bias_A": -1.818963610567165e-08,
+    "mae_A": 2.674361103046037e-08,
+    "rmse_A": 4.822679887280137e-08,
+    "max_absolute_error_A": 3.3779136826448476e-07,
+    "spice_median_A": 4.828636558341833e-06,
+    "ml_median_A": 4.837093875077481e-06,
+    "median_error_pct": 0.2507157806803083,
+    "p95_error_pct": 1.2394473284217744,
+    "mean_error_pct": 0.38721651306022453,
+    "mean_accuracy_pct": 99.61278348693978,
+    "percentage_count": 51200,
+    "near_zero_count": 0,
+    "near_zero_mae_A": null,
+    "near_zero_max_error_A": null,
+    "sign_mismatches": 0
+  }
+}
