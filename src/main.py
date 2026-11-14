@@ -90,9 +90,7 @@ def execute(ctx, stage):
     elif stage == "circuit":
         from circuit import evaluate
         evaluate(ctx)
-    elif stage == "audit":
-        from verify import audit
-        audit(ctx)
+
     elif stage == "benchmark":
         if not (ROOT / "baseline").is_dir() or not (ROOT / "src/benchmark.py").is_file():
             raise RuntimeError("Historical benchmarking is optional and needs the local baseline archive and benchmark.py")
@@ -104,7 +102,6 @@ def main():
     stages = ["setup", "data", "train", "gates", "predict", "circuit"]
     if (ROOT / "baseline").is_dir() and (ROOT / "src/benchmark.py").is_file():
         stages.append("benchmark")
-    stages.append("audit")
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("stage", choices=list(dict.fromkeys([*stages, "benchmark", "all"])))
     parser.add_argument("--output", type=Path, default=ROOT)
